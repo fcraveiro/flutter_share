@@ -12,3 +12,9 @@ var elevatedEstilo = ElevatedButton.styleFrom(
   primary: const Color(0xFF48426D),
   onSurface: Colors.black,
 );
+var elevatedEstilo2 = ElevatedButton.styleFrom(
+  elevation: 7,
+  fixedSize: const Size(250, 35),
+  primary: const Color(0xFF48426D),
+  onSurface: Colors.black,
+);

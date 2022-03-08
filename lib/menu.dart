@@ -25,19 +25,9 @@ class _MenuState extends State<Menu> {
             ElevatedButton(
               style: elevatedEstilo,
               onPressed: () {
-                Get.toNamed("/pagina1/");
-              },
-              child: const Text('Pagina 1'),
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              style: elevatedEstilo,
-              onPressed: () {
                 Get.toNamed("/sharear/");
               },
-              child: const Text('Sharear'),
+              child: const Text('Compartilhar'),
             ),
           ],
         ),
